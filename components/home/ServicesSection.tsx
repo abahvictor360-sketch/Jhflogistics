@@ -12,7 +12,7 @@ export default function ServicesSection() {
           align="center"
           eyebrow="Our Services"
           title="Wide variety of logistics services"
-          description="One partner across ocean, air, road and storage — so a delay in one leg is solved by the team that controls the next one."
+          description="One partner across ocean, air, road and storage, so a delay in one leg is solved by the team that controls the next one."
         />
 
         <div className="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-3">

@@ -8,7 +8,7 @@ import { team } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Our Team",
   description:
-    "Meet the Jhflogistics operations desk — the coordinators, brokers and planners who own your shipment end to end.",
+    "Meet the Jhflogistics operations desk: the coordinators, brokers and planners who own your shipment end to end.",
 };
 
 function initials(name: string) {

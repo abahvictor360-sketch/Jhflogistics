@@ -17,7 +17,7 @@ export default function BlogPage() {
       <PageHero
         eyebrow="Our Blog"
         title="Notes from the operations desk"
-        description="What we are seeing on rates, capacity and customs — written by the people who book the freight, not a marketing team."
+        description="What we are seeing on rates, capacity and customs, written by the people who book the freight rather than a marketing team."
         image="/images/container-ship-ocean.jpg"
       />
 

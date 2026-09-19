@@ -9,7 +9,7 @@ import { cases } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Projects",
   description:
-    "Case studies from the Jhflogistics operations desk — relief cargo, bulk grain, ocean consolidation and heavy-lift project moves.",
+    "Case studies from the Jhflogistics operations desk, covering relief cargo, bulk grain, ocean consolidation and heavy-lift project moves.",
 };
 
 const details = [
@@ -83,7 +83,7 @@ export default function ProjectsPage() {
           <SectionHeading
             eyebrow="Your Move Next"
             title="Tell us what you need shifted"
-            description="Out-of-gauge, time-critical or simply high volume — send the brief and we will come back with a route, a permit plan and a costed schedule."
+            description="Out-of-gauge, time-critical or simply high volume: send the brief and we will come back with a route, a permit plan and a costed schedule."
           />
           <Link
             href="/quote"

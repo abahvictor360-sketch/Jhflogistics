@@ -11,7 +11,7 @@ export default function QuoteForm({ compact = false }: { compact?: boolean }) {
       <div className="rounded-3xl bg-white p-8 text-center shadow-lg ring-1 ring-black/5">
         <h3 className="text-xl font-extrabold text-ink">Request received</h3>
         <p className="mt-3 text-sm leading-relaxed text-muted">
-          Thank you — a freight coordinator will come back with a costed option
+          Thank you. A freight coordinator will come back with a costed option
           within one business day. For an urgent shipment, call us directly.
         </p>
         <button

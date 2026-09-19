@@ -32,7 +32,7 @@ export default function Hero() {
 
           <p className="mt-6 max-w-xl text-[15px] leading-relaxed text-teal-soft/85">
             Take your business to the next level with a freight partner who owns
-            the whole chain — booking, customs, warehousing and final-mile
+            the whole chain: booking, customs, warehousing and final-mile
             delivery on a single tracked reference.
           </p>
 

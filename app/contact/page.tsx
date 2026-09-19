@@ -9,7 +9,7 @@ import { site } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Contact",
   description:
-    "Reach the Jhflogistics operations desk by phone, email or the contact form — replies within one business day.",
+    "Reach the Jhflogistics operations desk by phone, email or the contact form. Replies come within one business day.",
 };
 
 const channels = [

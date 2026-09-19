@@ -65,7 +65,7 @@ export default async function ServiceDetailPage({ params }: Params) {
             </p>
             <p className="mt-4 text-[15px] leading-relaxed text-muted">
               If a leg goes off plan, you hear it from us with an option
-              attached — a re-route, a partial uplift or a revised arrival you
+              attached, whether a re-route, a partial uplift or a revised arrival you
               can take to your own customer.
             </p>
 

@@ -12,7 +12,7 @@ const steps = [
     icon: RouteIcon,
     step: "Step 2",
     title: "Transport Packages",
-    body: "Cargo moves on the routing we costed with you — ocean, air or road — with milestone events at every handover.",
+    body: "Cargo moves on the routing we costed with you, whether ocean, air or road, with milestone events at every handover.",
   },
   {
     icon: TruckIcon,

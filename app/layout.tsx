@@ -14,13 +14,13 @@ const jakarta = Plus_Jakarta_Sans({
 export const metadata: Metadata = {
   metadataBase: new URL("https://jhflogistics.vercel.app"),
   title: {
-    default: "Jhflogistics — Cargo & Freight Transport Services",
+    default: "Jhflogistics | Cargo & Freight Transport Services",
     template: "%s | Jhflogistics",
   },
   description:
-    "Jhflogistics moves ocean, air and land freight for importers and manufacturers — customs clearance, warehousing and door-to-door delivery on one tracked booking.",
+    "Jhflogistics moves ocean, air and land freight for importers and manufacturers, with customs clearance, warehousing and door-to-door delivery on one tracked booking.",
   openGraph: {
-    title: "Jhflogistics — Cargo & Freight Transport Services",
+    title: "Jhflogistics | Cargo & Freight Transport Services",
     description:
       "Ocean, air and land freight with customs clearance, warehousing and live milestone tracking.",
     type: "website",

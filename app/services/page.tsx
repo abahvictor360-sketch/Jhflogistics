@@ -9,7 +9,7 @@ import { services } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Services",
   description:
-    "Ocean, air and land freight, warehousing, supply chain consulting and project cargo — the full Jhflogistics service range.",
+    "The full Jhflogistics service range: ocean, air and land freight, warehousing, supply chain consulting and project cargo.",
 };
 
 export default function ServicesPage() {
@@ -18,7 +18,7 @@ export default function ServicesPage() {
       <PageHero
         eyebrow="Our Services"
         title="Freight services built around your lane"
-        description="Six services, one operations desk. Mix them as the shipment demands — the coordinator and the tracking reference stay the same."
+        description="Six services, one operations desk. Mix them as the shipment demands. The coordinator and the tracking reference stay the same."
         image="/images/container-ship-ocean.jpg"
       />
 

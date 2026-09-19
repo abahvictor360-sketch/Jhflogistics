@@ -9,7 +9,7 @@ import { stats } from "@/lib/site";
 export const metadata: Metadata = {
   title: "About Us",
   description:
-    "Jhflogistics is a freight forwarder built by operators — twenty years of ocean, air and land experience behind every booking.",
+    "Jhflogistics is a freight forwarder built by operators, with twenty years of ocean, air and land experience behind every booking.",
 };
 
 const values = [

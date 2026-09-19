@@ -13,7 +13,7 @@ export default function ContactForm() {
         <h3 className="text-xl font-extrabold text-ink">Message sent</h3>
         <p className="mt-3 text-sm leading-relaxed text-muted">
           Thanks for getting in touch. A coordinator will reply within one
-          business day — sooner if your shipment is already moving.
+          business day, or sooner if your shipment is already moving.
         </p>
         <button
           type="button"
@@ -36,7 +36,7 @@ export default function ContactForm() {
     >
       <h2 className="text-2xl font-extrabold text-ink">Send us a message</h2>
       <p className="mt-2 text-sm text-muted">
-        Shipment question, quote follow-up or a new lane — it reaches the
+        Shipment question, quote follow-up or a new lane all reach the
         operations desk directly.
       </p>
       <div className="mt-6 space-y-3">
