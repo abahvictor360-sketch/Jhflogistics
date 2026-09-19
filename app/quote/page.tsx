@@ -83,7 +83,7 @@ export default function QuotePage() {
               href={site.phoneHref}
               className="mt-10 inline-flex items-center gap-3 rounded-2xl bg-teal-deep px-6 py-4 text-white"
             >
-              <PhoneIcon className="h-5 w-5 text-brand" />
+              <PhoneIcon className="h-5 w-5 text-brand-light" />
               <span className="text-sm">
                 <span className="block text-xs text-teal-soft/70">Shipping today?</span>
                 <span className="font-bold">{site.phone}</span>

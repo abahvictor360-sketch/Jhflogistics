@@ -20,8 +20,8 @@ export default function Hero() {
       />
       <div className="container-x relative grid gap-12 py-20 lg:grid-cols-[1.05fr_1fr] lg:items-center lg:py-28">
         <div className="animate-fade-up">
-          <span className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-4 py-1.5 text-xs font-bold uppercase tracking-[0.2em] text-brand">
-            <span className="h-1.5 w-1.5 rounded-full bg-brand" />
+          <span className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-4 py-1.5 text-xs font-bold uppercase tracking-[0.2em] text-brand-light">
+            <span className="h-1.5 w-1.5 rounded-full bg-brand-light" />
             Jhflogistics Transportation
           </span>
 
@@ -39,17 +39,17 @@ export default function Hero() {
           <div className="mt-9 flex flex-wrap items-center gap-4">
             <Link
               href="/contact"
-              className="inline-flex items-center gap-2 rounded-full bg-brand px-7 py-3.5 text-sm font-semibold text-white shadow-lg shadow-brand/25 transition hover:bg-brand-dark"
+              className="inline-flex items-center gap-2 rounded-full bg-brand-ink px-7 py-3.5 text-sm font-semibold text-white shadow-lg shadow-brand-ink/30 transition hover:bg-brand-dark"
             >
               Contact Jhflogistics
               <ArrowIcon className="h-4 w-4" />
             </Link>
             <a
               href={site.phoneHref}
-              className="inline-flex items-center gap-3 text-sm font-semibold text-white transition hover:text-brand"
+              className="inline-flex items-center gap-3 text-sm font-semibold text-white transition hover:text-brand-light"
             >
               <span className="grid h-11 w-11 place-items-center rounded-full border border-white/25">
-                <PhoneIcon className="h-5 w-5 text-brand" />
+                <PhoneIcon className="h-5 w-5 text-brand-light" />
               </span>
               <span>
                 <span className="block text-xs font-medium uppercase tracking-wide text-teal-soft/70">

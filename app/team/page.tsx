@@ -40,7 +40,7 @@ export default function TeamPage() {
                 {initials(member.name)}
               </span>
               <h2 className="mt-5 text-base font-bold text-ink">{member.name}</h2>
-              <p className="mt-1 text-xs font-semibold uppercase tracking-wide text-brand">
+              <p className="mt-1 text-xs font-semibold uppercase tracking-wide text-brand-ink">
                 {member.role}
               </p>
               <p className="mt-3 text-sm leading-relaxed text-muted">{member.bio}</p>
@@ -67,7 +67,7 @@ export default function TeamPage() {
           />
           <Link
             href="/contact"
-            className="inline-flex items-center gap-2 self-start rounded-full bg-brand px-7 py-3.5 text-sm font-semibold text-white transition hover:bg-brand-dark"
+            className="inline-flex items-center gap-2 self-start rounded-full bg-brand-ink px-7 py-3.5 text-sm font-semibold text-white transition hover:bg-brand-dark"
           >
             Send Your CV
             <ArrowIcon className="h-4 w-4" />

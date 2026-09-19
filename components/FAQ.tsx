@@ -14,7 +14,7 @@ export default function FAQ() {
           <div
             key={item.q}
             className={`overflow-hidden rounded-2xl border transition ${
-              isOpen ? "border-brand/40 bg-white shadow-sm" : "border-black/8 bg-white"
+              isOpen ? "border-brand-ink/40 bg-white shadow-sm" : "border-black/8 bg-white"
             }`}
           >
             <button
@@ -26,7 +26,7 @@ export default function FAQ() {
               <span className="text-sm font-semibold text-ink">{item.q}</span>
               <span
                 className={`grid h-7 w-7 shrink-0 place-items-center rounded-full text-sm font-bold transition ${
-                  isOpen ? "bg-brand text-white" : "bg-brand-soft text-brand"
+                  isOpen ? "bg-brand-ink text-white" : "bg-brand-soft text-brand-ink"
                 }`}
               >
                 {isOpen ? "–" : "+"}

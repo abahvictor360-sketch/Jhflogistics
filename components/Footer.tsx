@@ -42,7 +42,7 @@ export default function Footer() {
             />
             <button
               type="submit"
-              className="rounded-full bg-brand px-6 py-3 text-sm font-semibold text-white transition hover:bg-brand-dark"
+              className="rounded-full bg-brand-ink px-6 py-3 text-sm font-semibold text-white transition hover:bg-brand-dark"
             >
               Track Now
             </button>
@@ -60,7 +60,7 @@ export default function Footer() {
             </p>
             <Link
               href="/quote"
-              className="mt-5 inline-flex rounded-full bg-brand px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-brand-dark"
+              className="mt-5 inline-flex rounded-full bg-brand-ink px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-brand-dark"
             >
               Get A Free Quote
             </Link>
@@ -81,7 +81,7 @@ export default function Footer() {
           <ul className="mt-4 space-y-2.5 text-sm">
             {company.map((item) => (
               <li key={item.href}>
-                <Link href={item.href} className="inline-block py-1 transition hover:text-brand">
+                <Link href={item.href} className="inline-block py-1 transition hover:text-brand-light">
                   {item.label}
                 </Link>
               </li>
@@ -94,7 +94,7 @@ export default function Footer() {
           <ul className="mt-4 space-y-2.5 text-sm">
             {services.slice(0, 5).map((item) => (
               <li key={item.slug}>
-                <Link href={`/services/${item.slug}`} className="inline-block py-1 transition hover:text-brand">
+                <Link href={`/services/${item.slug}`} className="inline-block py-1 transition hover:text-brand-light">
                   {item.title}
                 </Link>
               </li>
@@ -107,16 +107,16 @@ export default function Footer() {
         <div className="container-x flex flex-col gap-4 py-6 text-sm md:flex-row md:items-center md:justify-between">
           <p>© {new Date().getFullYear()} Jhflogistics. All rights reserved.</p>
           <div className="flex flex-wrap items-center gap-5">
-            <a href={site.phoneHref} className="flex items-center gap-2 py-1 transition hover:text-brand">
-              <PhoneIcon className="h-4 w-4 text-brand" />
+            <a href={site.phoneHref} className="flex items-center gap-2 py-1 transition hover:text-brand-light">
+              <PhoneIcon className="h-4 w-4 text-brand-light" />
               {site.phone}
             </a>
-            <a href={`mailto:${site.email}`} className="flex items-center gap-2 py-1 transition hover:text-brand">
-              <MailIcon className="h-4 w-4 text-brand" />
+            <a href={`mailto:${site.email}`} className="flex items-center gap-2 py-1 transition hover:text-brand-light">
+              <MailIcon className="h-4 w-4 text-brand-light" />
               {site.email}
             </a>
             <span className="flex items-center gap-2">
-              <PinIcon className="h-4 w-4 text-brand" />
+              <PinIcon className="h-4 w-4 text-brand-light" />
               Lagos, Nigeria
             </span>
           </div>

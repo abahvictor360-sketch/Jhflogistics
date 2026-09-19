@@ -44,7 +44,7 @@ export default function Process() {
                 <span className="grid h-14 w-14 place-items-center rounded-2xl bg-brand-soft text-brand">
                   <Icon className="h-7 w-7" />
                 </span>
-                <p className="mt-5 text-xs font-bold uppercase tracking-[0.2em] text-brand">
+                <p className="mt-5 text-xs font-bold uppercase tracking-[0.2em] text-brand-ink">
                   {step.step}
                 </p>
                 <h3 className="mt-2 text-lg font-bold text-ink">{step.title}</h3>

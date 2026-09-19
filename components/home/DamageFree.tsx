@@ -68,7 +68,7 @@ export default function DamageFree() {
               className="h-full w-full object-cover"
             />
           </div>
-          <div className="absolute bottom-6 left-6 right-6 rounded-2xl bg-brand p-6 text-white shadow-lg sm:right-auto sm:w-64">
+          <div className="absolute bottom-6 left-6 right-6 rounded-2xl bg-brand-ink p-6 text-white shadow-lg sm:right-auto sm:w-64">
             <p className="text-4xl font-extrabold leading-none">20</p>
             <p className="mt-2 text-sm font-medium leading-snug text-white/90">
               Years of hands-on freight and terminal experience

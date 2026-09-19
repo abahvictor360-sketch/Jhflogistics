@@ -13,7 +13,7 @@ export default function SectionHeading({
 }) {
   return (
     <div className={align === "center" ? "mx-auto max-w-2xl text-center" : "max-w-2xl"}>
-      <span className="inline-flex items-center gap-2 rounded-full bg-brand-soft px-4 py-1.5 text-xs font-bold uppercase tracking-[0.18em] text-brand">
+      <span className="inline-flex items-center gap-2 rounded-full bg-brand-soft px-4 py-1.5 text-xs font-bold uppercase tracking-[0.18em] text-brand-ink">
         <span className="h-1.5 w-1.5 rounded-full bg-brand" />
         {eyebrow}
       </span>

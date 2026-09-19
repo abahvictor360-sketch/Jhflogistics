@@ -17,7 +17,7 @@ export default function QuoteForm({ compact = false }: { compact?: boolean }) {
         <button
           type="button"
           onClick={() => setSent(false)}
-          className="mt-6 rounded-full bg-brand px-6 py-3 text-sm font-semibold text-white transition hover:bg-brand-dark"
+          className="mt-6 rounded-full bg-brand-ink px-6 py-3 text-sm font-semibold text-white transition hover:bg-brand-dark"
         >
           Send Another Request
         </button>
@@ -26,7 +26,7 @@ export default function QuoteForm({ compact = false }: { compact?: boolean }) {
   }
 
   const field =
-    "w-full rounded-xl border border-white/25 bg-white/10 px-4 py-3 text-sm text-white placeholder:text-white/60 outline-none transition focus:border-white focus:bg-white/15";
+    "w-full rounded-xl border border-white/25 bg-white/10 px-4 py-3 text-sm text-white placeholder:text-white/75 outline-none transition focus:border-white focus:bg-white/15";
 
   return (
     <form
@@ -34,10 +34,10 @@ export default function QuoteForm({ compact = false }: { compact?: boolean }) {
         e.preventDefault();
         setSent(true);
       }}
-      className={`rounded-3xl bg-brand p-7 shadow-xl shadow-brand/20 ${compact ? "" : "sm:p-8"}`}
+      className={`rounded-3xl bg-brand-ink p-7 shadow-xl shadow-brand-ink/20 ${compact ? "" : "sm:p-8"}`}
     >
       <h3 className="text-2xl font-extrabold text-white">Request Quote Form</h3>
-      <p className="mt-2 text-sm text-white/85">
+      <p className="mt-2 text-sm text-white/90">
         Tell us the lane and the cargo. You get a costed comparison, not a
         brochure.
       </p>
@@ -79,7 +79,7 @@ export default function QuoteForm({ compact = false }: { compact?: boolean }) {
       >
         Get A Quote
       </button>
-      <p className="mt-4 text-center text-sm text-white/85">
+      <p className="mt-4 text-center text-sm text-white/90">
         Or give us a call: <span className="font-bold text-white">(998) 765 4321</span>
       </p>
     </form>

@@ -14,7 +14,7 @@ export default function Stats() {
               key={stat.label}
               className="flex items-center gap-4 rounded-2xl border border-white/10 bg-white/5 p-5"
             >
-              <span className="grid h-12 w-12 shrink-0 place-items-center rounded-xl bg-brand/15 text-brand">
+              <span className="grid h-12 w-12 shrink-0 place-items-center rounded-xl bg-brand-light/15 text-brand-light">
                 <Icon className="h-6 w-6" />
               </span>
               <div>

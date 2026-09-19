@@ -78,7 +78,7 @@ export default function AboutPage() {
             </ul>
             <Link
               href="/contact"
-              className="mt-9 inline-flex items-center gap-2 rounded-full bg-brand px-7 py-3.5 text-sm font-semibold text-white transition hover:bg-brand-dark"
+              className="mt-9 inline-flex items-center gap-2 rounded-full bg-brand-ink px-7 py-3.5 text-sm font-semibold text-white transition hover:bg-brand-dark"
             >
               Talk To Our Team
               <ArrowIcon className="h-4 w-4" />
@@ -139,7 +139,7 @@ export default function AboutPage() {
             {milestones.map((m) => (
               <li key={m.year} className="relative">
                 <span className="absolute -left-[38px] top-1 grid h-5 w-5 place-items-center rounded-full bg-brand ring-4 ring-brand-soft" />
-                <p className="text-sm font-extrabold text-brand">{m.year}</p>
+                <p className="text-sm font-extrabold text-brand-ink">{m.year}</p>
                 <p className="mt-1 text-[15px] text-ink/80">{m.text}</p>
               </li>
             ))}

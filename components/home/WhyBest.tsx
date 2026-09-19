@@ -77,7 +77,7 @@ export default function WhyBest() {
 
           <Link
             href="/about"
-            className="mt-9 inline-flex items-center gap-2 rounded-full bg-brand px-7 py-3.5 text-sm font-semibold text-white transition hover:bg-brand-dark"
+            className="mt-9 inline-flex items-center gap-2 rounded-full bg-brand-ink px-7 py-3.5 text-sm font-semibold text-white transition hover:bg-brand-dark"
           >
             More About Us
             <ArrowIcon className="h-4 w-4" />
@@ -86,12 +86,12 @@ export default function WhyBest() {
       </div>
 
       <div className="container-x mt-16">
-        <div className="grid overflow-hidden rounded-[2rem] bg-brand md:grid-cols-[1.2fr_1fr]">
+        <div className="grid overflow-hidden rounded-[2rem] bg-brand-ink md:grid-cols-[1.2fr_1fr]">
           <div className="p-9 sm:p-11">
             <h3 className="text-2xl font-extrabold leading-tight text-white sm:text-3xl">
               We ensure safe transportation &amp; delivery
             </h3>
-            <p className="mt-3 max-w-md text-sm leading-relaxed text-white/90">
+            <p className="mt-3 max-w-md text-sm leading-relaxed text-white">
               Every load is insured, sealed and tracked from collection to
               signature. If something moves off plan you hear it from us first.
             </p>

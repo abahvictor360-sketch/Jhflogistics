@@ -18,7 +18,7 @@ export default function ContactForm() {
         <button
           type="button"
           onClick={() => setSent(false)}
-          className="mt-6 rounded-full bg-brand px-6 py-3 text-sm font-semibold text-white transition hover:bg-brand-dark"
+          className="mt-6 rounded-full bg-brand-ink px-6 py-3 text-sm font-semibold text-white transition hover:bg-brand-dark"
         >
           Send Another Message
         </button>
@@ -52,7 +52,7 @@ export default function ContactForm() {
       </div>
       <button
         type="submit"
-        className="mt-6 rounded-full bg-brand px-7 py-3.5 text-sm font-semibold text-white transition hover:bg-brand-dark"
+        className="mt-6 rounded-full bg-brand-ink px-7 py-3.5 text-sm font-semibold text-white transition hover:bg-brand-dark"
       >
         Send Message
       </button>

@@ -30,8 +30,8 @@ export default function Testimonials() {
 
   return (
     <div className="rounded-3xl bg-teal-deep p-7 text-white sm:p-9">
-      <span className="inline-flex items-center gap-2 rounded-full bg-white/10 px-4 py-1.5 text-xs font-bold uppercase tracking-[0.18em] text-brand">
-        <span className="h-1.5 w-1.5 rounded-full bg-brand" />
+      <span className="inline-flex items-center gap-2 rounded-full bg-white/10 px-4 py-1.5 text-xs font-bold uppercase tracking-[0.18em] text-brand-light">
+        <span className="h-1.5 w-1.5 rounded-full bg-brand-light" />
         Testimonials
       </span>
       <h2 className="mt-4 text-3xl font-extrabold leading-tight">
@@ -39,14 +39,14 @@ export default function Testimonials() {
       </h2>
 
       <div className="mt-7 rounded-2xl bg-white/5 p-6">
-        <QuoteIcon className="h-8 w-8 text-brand/70" />
+        <QuoteIcon className="h-8 w-8 text-brand-light/80" />
         <p className="mt-4 text-[15px] leading-relaxed text-teal-soft/90">{item.quote}</p>
         <div className="mt-6 flex items-center justify-between gap-4">
           <div>
             <p className="font-bold text-white">{item.name}</p>
             <p className="mt-0.5 text-xs text-teal-soft/70">{item.role}</p>
           </div>
-          <div className="flex gap-0.5 text-brand">
+          <div className="flex gap-0.5 text-brand-light">
             {Array.from({ length: 5 }).map((_, s) => (
               <StarIcon key={s} className="h-4 w-4" />
             ))}
@@ -65,7 +65,7 @@ export default function Testimonials() {
           >
             <span
               className={`block h-2.5 rounded-full transition-all ${
-                idx === i ? "w-8 bg-brand" : "w-2.5 bg-white/25 group-hover:bg-white/50"
+                idx === i ? "w-8 bg-brand-light" : "w-2.5 bg-white/30 group-hover:bg-white/60"
               }`}
             />
           </button>

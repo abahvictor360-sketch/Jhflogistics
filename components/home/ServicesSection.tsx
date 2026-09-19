@@ -35,7 +35,7 @@ export default function ServicesSection() {
                 <p className="mt-3 text-sm leading-relaxed text-muted">{service.excerpt}</p>
                 <Link
                   href={`/services/${service.slug}`}
-                  className="mt-5 inline-flex items-center gap-2 py-2 text-sm font-semibold text-brand transition hover:gap-3"
+                  className="mt-5 inline-flex items-center gap-2 py-2 text-sm font-semibold text-brand-ink transition hover:gap-3"
                 >
                   Read More
                   <ArrowIcon className="h-4 w-4" />

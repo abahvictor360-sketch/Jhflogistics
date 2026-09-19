@@ -20,8 +20,8 @@ export default function PageHero({
       />
       <div className="absolute inset-0 bg-gradient-to-r from-teal-deep via-teal-deep/90 to-teal-deep/50" aria-hidden />
       <div className="container-x relative py-20 sm:py-24">
-        <span className="inline-flex items-center gap-2 rounded-full bg-white/10 px-4 py-1.5 text-xs font-bold uppercase tracking-[0.18em] text-brand">
-          <span className="h-1.5 w-1.5 rounded-full bg-brand" />
+        <span className="inline-flex items-center gap-2 rounded-full bg-white/10 px-4 py-1.5 text-xs font-bold uppercase tracking-[0.18em] text-brand-light">
+          <span className="h-1.5 w-1.5 rounded-full bg-brand-light" />
           {eyebrow}
         </span>
         <h1 className="mt-5 max-w-3xl text-4xl font-extrabold leading-[1.1] tracking-tight text-white sm:text-5xl">
@@ -31,7 +31,7 @@ export default function PageHero({
         <div className="mt-8 flex flex-wrap gap-3 text-sm font-semibold">
           <Link
             href="/quote"
-            className="rounded-full bg-brand px-6 py-3 text-white transition hover:bg-brand-dark"
+            className="rounded-full bg-brand-ink px-6 py-3 text-white transition hover:bg-brand-dark"
           >
             Request A Quote
           </Link>

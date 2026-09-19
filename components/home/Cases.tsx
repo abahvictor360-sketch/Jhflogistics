@@ -38,7 +38,7 @@ export default function Cases() {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-ink/90 via-ink/30 to-transparent" />
               <div className="absolute inset-x-0 bottom-0 p-5 text-white">
-                <span className="inline-flex rounded-full bg-brand px-3 py-1 text-[11px] font-bold uppercase tracking-wide">
+                <span className="inline-flex rounded-full bg-brand-ink px-3 py-1 text-[11px] font-bold uppercase tracking-wide">
                   {item.tag}
                 </span>
                 <h3 className="mt-3 text-base font-bold leading-snug">{item.title}</h3>

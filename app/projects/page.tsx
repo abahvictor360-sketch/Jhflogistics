@@ -56,7 +56,7 @@ export default function ProjectsPage() {
                   sizes="(max-width: 768px) 100vw, 50vw"
                   className="object-cover transition duration-500 group-hover:scale-105"
                 />
-                <span className="absolute left-5 top-5 rounded-full bg-brand px-3 py-1 text-[11px] font-bold uppercase tracking-wide text-white">
+                <span className="absolute left-5 top-5 rounded-full bg-brand-ink px-3 py-1 text-[11px] font-bold uppercase tracking-wide text-white">
                   {item.tag}
                 </span>
               </div>
@@ -87,7 +87,7 @@ export default function ProjectsPage() {
           />
           <Link
             href="/quote"
-            className="inline-flex items-center gap-2 self-start rounded-full bg-brand px-7 py-3.5 text-sm font-semibold text-white transition hover:bg-brand-dark"
+            className="inline-flex items-center gap-2 self-start rounded-full bg-brand-ink px-7 py-3.5 text-sm font-semibold text-white transition hover:bg-brand-dark"
           >
             Start A Project
             <ArrowIcon className="h-4 w-4" />

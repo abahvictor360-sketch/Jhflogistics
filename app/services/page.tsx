@@ -51,7 +51,7 @@ export default function ServicesPage() {
                 </ul>
                 <Link
                   href={`/services/${service.slug}`}
-                  className="mt-6 inline-flex items-center gap-2 py-2 text-sm font-semibold text-brand transition hover:gap-3"
+                  className="mt-6 inline-flex items-center gap-2 py-2 text-sm font-semibold text-brand-ink transition hover:gap-3"
                 >
                   Service Details
                   <ArrowIcon className="h-4 w-4" />
@@ -71,7 +71,7 @@ export default function ServicesPage() {
           />
           <Link
             href="/quote"
-            className="inline-flex items-center gap-2 self-start rounded-full bg-brand px-7 py-3.5 text-sm font-semibold text-white transition hover:bg-brand-dark"
+            className="inline-flex items-center gap-2 self-start rounded-full bg-brand-ink px-7 py-3.5 text-sm font-semibold text-white transition hover:bg-brand-dark"
           >
             Request A Quote
             <ArrowIcon className="h-4 w-4" />

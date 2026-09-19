@@ -27,16 +27,16 @@ export default function Header() {
         <div className="container-x flex h-11 items-center justify-between text-[13px]">
           <div className="flex items-center gap-6">
             <span className="flex items-center gap-2">
-              <ClockIcon className="h-4 w-4 text-brand" />
+              <ClockIcon className="h-4 w-4 text-brand-light" />
               {site.hours}
             </span>
             <span className="flex items-center gap-2">
-              <PinIcon className="h-4 w-4 text-brand" />
+              <PinIcon className="h-4 w-4 text-brand-light" />
               {site.address}
             </span>
           </div>
           <a href={site.phoneHref} className="flex items-center gap-2 transition hover:text-white">
-            <PhoneIcon className="h-4 w-4 text-brand" />
+            <PhoneIcon className="h-4 w-4 text-brand-light" />
             Call Us Anytime: <span className="font-semibold text-white">{site.phone}</span>
           </a>
         </div>
@@ -62,7 +62,7 @@ export default function Header() {
                   href={link.href}
                   className={`rounded-full px-4 py-2 text-sm font-semibold transition ${
                     active
-                      ? "bg-brand-soft text-brand"
+                      ? "bg-brand-soft text-brand-ink"
                       : "text-ink/75 hover:bg-cream hover:text-ink"
                   }`}
                 >
@@ -75,7 +75,7 @@ export default function Header() {
           <div className="flex items-center gap-3">
             <Link
               href="/quote"
-              className="hidden rounded-full bg-brand px-5 py-2.5 text-sm font-semibold text-white shadow-sm transition hover:bg-brand-dark sm:inline-flex"
+              className="hidden rounded-full bg-brand-ink px-5 py-2.5 text-sm font-semibold text-white shadow-sm transition hover:bg-brand-dark sm:inline-flex"
             >
               Request A Quote
             </Link>
@@ -118,7 +118,7 @@ export default function Header() {
               ))}
               <Link
                 href="/quote"
-                className="mt-2 rounded-full bg-brand px-5 py-3 text-center text-sm font-semibold text-white"
+                className="mt-2 rounded-full bg-brand-ink px-5 py-3 text-center text-sm font-semibold text-white"
               >
                 Request A Quote
               </Link>

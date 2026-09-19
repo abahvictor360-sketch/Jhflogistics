@@ -29,10 +29,10 @@ export default async function BlogPostPage({ params }: Params) {
     <>
       <section className="bg-teal-deep">
         <div className="container-x py-16 sm:py-20">
-          <Link href="/blog" className="inline-block py-2 text-sm font-semibold text-brand hover:text-white">
+          <Link href="/blog" className="inline-block py-2 text-sm font-semibold text-brand-light hover:text-white">
             ← All articles
           </Link>
-          <span className="mt-6 inline-flex rounded-full bg-white/10 px-3 py-1 text-[11px] font-bold uppercase tracking-wide text-brand">
+          <span className="mt-6 inline-flex rounded-full bg-white/10 px-3 py-1 text-[11px] font-bold uppercase tracking-wide text-brand-light">
             {post.category}
           </span>
           <h1 className="mt-4 max-w-3xl text-3xl font-extrabold leading-[1.15] tracking-tight text-white sm:text-4xl">
@@ -72,7 +72,7 @@ export default async function BlogPostPage({ params }: Params) {
             </p>
             <Link
               href="/quote"
-              className="mt-5 inline-flex items-center gap-2 rounded-full bg-brand px-6 py-3 text-sm font-semibold text-white transition hover:bg-brand-dark"
+              className="mt-5 inline-flex items-center gap-2 rounded-full bg-brand-ink px-6 py-3 text-sm font-semibold text-white transition hover:bg-brand-dark"
             >
               Request A Quote
               <ArrowIcon className="h-4 w-4" />
@@ -87,7 +87,7 @@ export default async function BlogPostPage({ params }: Params) {
                 href={`/blog/${other.slug}`}
                 className="rounded-2xl border border-black/8 p-5 transition hover:border-brand"
               >
-                <p className="text-xs font-semibold uppercase tracking-wide text-brand">
+                <p className="text-xs font-semibold uppercase tracking-wide text-brand-ink">
                   {other.category}
                 </p>
                 <p className="mt-2 text-sm font-bold leading-snug text-ink">{other.title}</p>

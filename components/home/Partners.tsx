@@ -19,7 +19,7 @@ export default function Partners() {
             {[...partners, ...partners].map((name, i) => (
               <span
                 key={`${name}-${i}`}
-                className="text-xl font-extrabold tracking-tight text-ink/25 transition hover:text-ink/50"
+                className="text-xl font-extrabold tracking-tight text-ink/55 transition hover:text-ink/80"
               >
                 {name}
               </span>
