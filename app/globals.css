@@ -38,6 +38,12 @@ body {
   }
 }
 
+@media (min-width: 1600px) {
+  .container-x {
+    max-width: 84rem;
+  }
+}
+
 .grid-pattern {
   background-image: linear-gradient(
       to right,

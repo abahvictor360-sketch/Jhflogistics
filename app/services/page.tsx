@@ -51,7 +51,7 @@ export default function ServicesPage() {
                 </ul>
                 <Link
                   href={`/services/${service.slug}`}
-                  className="mt-6 inline-flex items-center gap-2 text-sm font-semibold text-brand transition hover:gap-3"
+                  className="mt-6 inline-flex items-center gap-2 py-2 text-sm font-semibold text-brand transition hover:gap-3"
                 >
                   Service Details
                   <ArrowIcon className="h-4 w-4" />

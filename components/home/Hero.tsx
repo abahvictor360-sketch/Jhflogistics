@@ -86,7 +86,7 @@ export default function Hero() {
               className="h-full w-full object-cover"
             />
           </div>
-          <div className="absolute -bottom-6 -left-4 w-60 rounded-2xl bg-white p-5 shadow-xl sm:-left-8">
+          <div className="absolute bottom-4 left-4 right-4 rounded-2xl bg-white p-5 shadow-xl sm:-bottom-6 sm:-left-8 sm:right-auto sm:w-60">
             <p className="text-3xl font-extrabold text-ink">50k+</p>
             <p className="mt-1 text-xs font-medium uppercase tracking-wide text-muted">
               Shipments delivered worldwide

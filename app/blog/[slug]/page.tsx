@@ -29,7 +29,7 @@ export default async function BlogPostPage({ params }: Params) {
     <>
       <section className="bg-teal-deep">
         <div className="container-x py-16 sm:py-20">
-          <Link href="/blog" className="text-sm font-semibold text-brand hover:text-white">
+          <Link href="/blog" className="inline-block py-2 text-sm font-semibold text-brand hover:text-white">
             ← All articles
           </Link>
           <span className="mt-6 inline-flex rounded-full bg-white/10 px-3 py-1 text-[11px] font-bold uppercase tracking-wide text-brand">

@@ -61,10 +61,14 @@ export default function Testimonials() {
             type="button"
             aria-label={`Show testimonial ${idx + 1}`}
             onClick={() => setI(idx)}
-            className={`h-2.5 rounded-full transition-all ${
-              idx === i ? "w-8 bg-brand" : "w-2.5 bg-white/25 hover:bg-white/50"
-            }`}
-          />
+            className="group grid h-11 place-items-center px-1"
+          >
+            <span
+              className={`block h-2.5 rounded-full transition-all ${
+                idx === i ? "w-8 bg-brand" : "w-2.5 bg-white/25 group-hover:bg-white/50"
+              }`}
+            />
+          </button>
         ))}
       </div>
     </div>

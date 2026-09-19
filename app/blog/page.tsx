@@ -48,7 +48,7 @@ export default function BlogPage() {
                 <p className="mt-3 flex-1 text-sm leading-relaxed text-muted">{post.excerpt}</p>
                 <Link
                   href={`/blog/${post.slug}`}
-                  className="mt-5 inline-flex items-center gap-2 text-sm font-semibold text-brand transition hover:gap-3"
+                  className="mt-5 inline-flex items-center gap-2 py-2 text-sm font-semibold text-brand transition hover:gap-3"
                 >
                   Read More
                   <ArrowIcon className="h-4 w-4" />

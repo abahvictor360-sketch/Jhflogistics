@@ -39,7 +39,7 @@ export default async function ServiceDetailPage({ params }: Params) {
         />
         <div className="absolute inset-0 bg-gradient-to-r from-teal-deep via-teal-deep/90 to-teal-deep/55" />
         <div className="container-x relative py-20 sm:py-24">
-          <Link href="/services" className="text-sm font-semibold text-brand hover:text-white">
+          <Link href="/services" className="inline-block py-2 text-sm font-semibold text-brand hover:text-white">
             ← All services
           </Link>
           <h1 className="mt-4 max-w-3xl text-4xl font-extrabold leading-[1.1] tracking-tight text-white sm:text-5xl">

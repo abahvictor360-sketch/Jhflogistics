@@ -81,7 +81,7 @@ export default function Footer() {
           <ul className="mt-4 space-y-2.5 text-sm">
             {company.map((item) => (
               <li key={item.href}>
-                <Link href={item.href} className="transition hover:text-brand">
+                <Link href={item.href} className="inline-block py-1 transition hover:text-brand">
                   {item.label}
                 </Link>
               </li>
@@ -94,7 +94,7 @@ export default function Footer() {
           <ul className="mt-4 space-y-2.5 text-sm">
             {services.slice(0, 5).map((item) => (
               <li key={item.slug}>
-                <Link href={`/services/${item.slug}`} className="transition hover:text-brand">
+                <Link href={`/services/${item.slug}`} className="inline-block py-1 transition hover:text-brand">
                   {item.title}
                 </Link>
               </li>
@@ -107,11 +107,11 @@ export default function Footer() {
         <div className="container-x flex flex-col gap-4 py-6 text-sm md:flex-row md:items-center md:justify-between">
           <p>© {new Date().getFullYear()} Jhflogistics. All rights reserved.</p>
           <div className="flex flex-wrap items-center gap-5">
-            <a href={site.phoneHref} className="flex items-center gap-2 transition hover:text-brand">
+            <a href={site.phoneHref} className="flex items-center gap-2 py-1 transition hover:text-brand">
               <PhoneIcon className="h-4 w-4 text-brand" />
               {site.phone}
             </a>
-            <a href={`mailto:${site.email}`} className="flex items-center gap-2 transition hover:text-brand">
+            <a href={`mailto:${site.email}`} className="flex items-center gap-2 py-1 transition hover:text-brand">
               <MailIcon className="h-4 w-4 text-brand" />
               {site.email}
             </a>
